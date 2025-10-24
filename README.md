@@ -40,11 +40,11 @@ Berikut penjelasan alur data mulai dari pemanggilan API hingga penyajian di laya
    View melakukan observe terhadap data dari ViewModel, lalu menampilkan hasilnya pada komponen UI seperti TextView, ImageView.
 
 Alur Lengkap Data :
-a. Pengguna membuka aplikasi → MainActivity dijalankan.
-b. ViewModel memanggil data dari API melalui TeamRepository.
-c. Data JSON dari server dikonversi menjadi model Kotlin (ApiResponse.kt).
-d. LiveData di ViewModel memperbarui UI secara otomatis setelah data diterima.
-e. Tampilan menampilkan nama klub, pelatih, stadion, serta daftar pemain sesuai data dari API.
+1. Pengguna membuka aplikasi → MainActivity dijalankan.
+2. ViewModel memanggil data dari API melalui TeamRepository.
+3. Data JSON dari server dikonversi menjadi model Kotlin (ApiResponse.kt).
+4. LiveData di ViewModel memperbarui UI secara otomatis setelah data diterima.
+5. Tampilan menampilkan nama klub, pelatih, stadion, serta daftar pemain sesuai data dari API.
 
 
 
