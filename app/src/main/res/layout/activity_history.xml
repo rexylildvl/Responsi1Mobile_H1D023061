@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <ImageView
+            android:id="@+id/imgStadium"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/history" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvHistoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RCD Espanyol de Barcelona"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvParagraph1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RCD Espanyol de Barcelona, officially known as Reial Club Deportiu Espanyol de Barcelona, was founded in 1900 by Ángel Rodríguez Ruiz, a student of engineering at the University of Barcelona. It became one of the oldest football clubs in Spain and a founding member of La Liga in 1929. The club originally featured only local Catalan players, in contrast to other teams that relied on foreign talent. Espanyol’s blue and white colors were inspired by the coat of arms of the Count of Barcelona, a historic symbol of the city."
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/tvParagraph2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Throughout the 20th century, Espanyol grew into one of the major clubs in Catalonia and became the main rival of FC Barcelona in the famous Derbi Barceloní. The club won its first Copa del Rey in 1929, followed by more trophies in 1940, 2000, and 2006. Although Espanyol never matched its city rival in global fame, it built a strong identity based on humility, hard work, and loyalty to its local supporters."
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/tvParagraph3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Espanyol also achieved success on the European stage, reaching the UEFA Cup finals in 1988 and 2007, both times finishing as runners-up after dramatic penalty shootouts. The club has been home to many talented Spanish players such as Raúl Tamudo, Dani Jarque, Sergio García, and David López. Dani Jarque, a beloved captain, became an eternal symbol of the club after his tragic passing in 2009, and his legacy continues to inspire the team and its fans."
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/tvParagraph4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Since 2009, Espanyol has played its home matches at the modern RCDE Stadium in Cornellà de Llobregat, replacing the historic Estadi de Sarrià. The club continues to compete in La Liga, aiming to strengthen its position among Spain’s elite. With the passionate support of their fans known as 'Pericos', RCD Espanyol remains a proud representation of Catalan spirit, tradition, and resilience in Spanish football."
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
