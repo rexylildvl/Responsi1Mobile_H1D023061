@@ -2,7 +2,7 @@
 
 **Nama:** Raia Digna Amanda  
 **NIM:** H1D023061  
-**Shift Asal:** Shift C
+**Shift Asal:** Shift C  
 **Shift Baru:** Shift C  
 
 ---
