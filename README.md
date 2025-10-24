@@ -18,7 +18,7 @@ Aplikasi ini menampilkan:
 
 ## 🎬 Video Demo Aplikasi
 
-Berikut adalah tampilan demo aplikasi (ikon aplikasi terlihat di awal):
+Berikut adalah tampilan demo aplikasi:
 
 <p align="center">
   <img src="assets/demo_app.gif" width="320" height="640" alt="Demo Responsi 1 Mobile">
